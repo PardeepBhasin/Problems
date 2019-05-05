@@ -1,0 +1,28 @@
+<html>
+<head>
+  <script>
+//     function convertToIntegers(strings) {
+//   let temp = [];
+//   for(var i = 0; i < strings.length; i++) {
+//     console.log(strings);
+//     let data = parseInt(strings[i]);
+//     temp.push(data);
+//   }
+//   return temp;
+// }
+// convertToIntegers(['4', '7', '12'])
+
+function customSort(table, key) {
+  return table.sort(function (a, b) {
+    return b[key] - a[key];
+  })
+}
+
+customSort([{key : 6}, {key : 9}, {key : 2}, {key : 1}, {key : 70}], 'key')
+
+
+  </script>
+</head>
+  <body>
+  </body>
+</html>

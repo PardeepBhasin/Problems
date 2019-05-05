@@ -1,0 +1,17 @@
+{
+  "name": "async-await",
+  "quokka": {
+    "babel": true
+  },
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pardeep bhasin",
+  "license": "ISC",
+  "devDependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
